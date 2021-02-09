@@ -8,7 +8,7 @@
   padding: 0 10%;
   text-align: center;
 }
-@media all and (max-width: 767px){
+@media all and (max-width: 991px){
   .contenitore{
     padding: 0 3%;
   }
@@ -42,4 +42,12 @@ section{
   /* Proprietà Protfolio */
 .whitesection{
   background-color: white;
+}
+
+/* Proprietà footer */
+footer section{
+  background-color: #0026a0;
+}
+footer section:last-child{
+  background-color: #9000a0;
 }
