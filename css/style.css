@@ -28,6 +28,11 @@ body{
 /* Proprietà header */
 header{
   background-color: #2c3e50;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
   /* Aggiustamenti navbar BS */
 header .navbar{
@@ -114,6 +119,9 @@ section h2{
   background-color: #00b386;
   min-height: 200px;
 }
+.greensection:first-child{
+  margin-top: 90px;
+}
 .greensection img{
   max-width: 160px;
 }
@@ -192,6 +200,8 @@ section h2{
 #contatti{
   font-size: 18px;
 }
+
+/* Form input type BS */
 .form-group{
   margin-bottom: 25px;
 }
@@ -213,6 +223,7 @@ section h2{
   border-color: lightgrey;
 }
 
+/* Proprietà bottone submit BS */
 form .btn{
   border: 0px solid transparent;
   min-height: 45px;
@@ -229,19 +240,44 @@ form .btn-default:active{
   outline: none;
 }
 
-/* Proprietà colonne */
-.colonna{ /* Debug */
-  background-color: dodgerblue;
-  border: 1px solid yellow;
-  border-radius: 10px;
-  min-height: 150px;
-  margin: 0px;
-}
-
 /* Proprietà footer */
 footer section{
-  background-color: #0026a0;
+  background-color: #3a546d;
 }
+
+  /* Icona social */
+footer .social{
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 5px 5px;
+}
+footer .social:hover{
+  background-color: white;
+  color: black;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+  /* Link verde */
+#linketto{
+  color: #00b386;
+  text-decoration: none;
+}
+#linketto:hover{
+  color: #137965;
+  text-decoration: underline;
+}
+
+  /* Seconda sezione footer + scura */
 footer section:last-child{
-  background-color: #9000a0;
+  background-color: #2c3e50;
+  min-height: 100px;
+}
+footer section:last-child p{
+  margin-bottom: 0;
 }
