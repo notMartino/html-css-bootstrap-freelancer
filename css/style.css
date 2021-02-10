@@ -165,14 +165,77 @@ section h2{
 .testosx{
   text-align: left;
 }
+  /* Bottone standard BS */
+.greensection .btn-primary.active,
+.greensection .btn-primary:active,
+.greensection .open>.dropdown-toggle.btn-primary {
+  background-color: transparent;
+  border-color: white;
+  margin-top: 10px;
+  font-weight: 600;
+}
+  /* Bottone standard BS :hover/:focus*/
+.greensection .btn-primary.active.focus,
+.greensection .btn-primary.active:focus,
+.greensection .btn-primary.active:hover,
+.greensection.btn-primary:active.focus,
+.greensection.btn-primary:active:focus,
+.greensection.btn-primary:active:hover,
+.greensection.open>.dropdown-toggle.btn-primary.focus,
+.greensection.open>.dropdown-toggle.btn-primary:focus,
+.greensection.open>.dropdown-toggle.btn-primary:hover{
+  background-color: white;
+  color: black;
+}
+
+/* Proprietà Contattami */
+#contatti{
+  font-size: 18px;
+}
+.form-group{
+  margin-bottom: 25px;
+}
+.form-control{
+  color: black;
+  border: 0px solid lightgrey;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 20px;
+  padding: 0;
+  padding-bottom: 15px;
+}
+.form-control::-webkit-input-placeholder{
+  color: black;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: lightgrey;
+}
+
+form .btn{
+  border: 0px solid transparent;
+  min-height: 45px;
+  font-size: 18px;
+  background-color: #00b386;
+  color: white;
+  font-weight: 600;
+}
+form .btn-default:hover,
+form .btn-default:focus,
+form .btn-default:active{
+  background-color: #14a286;
+  color: white;
+  outline: none;
+}
 
 /* Proprietà colonne */
 .colonna{ /* Debug */
-background-color: dodgerblue;
-border: 1px solid yellow;
-border-radius: 10px;
-min-height: 150px;
-margin: 0px;
+  background-color: dodgerblue;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  min-height: 150px;
+  margin: 0px;
 }
 
 /* Proprietà footer */
