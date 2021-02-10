@@ -130,10 +130,35 @@ section h2{
 .whitesection{
   background-color: white;
 }
-.whitesection img{
+
+/* Proprietà carta img */
+.card{
+  position: relative;
+  margin: 10px 0;
+  background-color: #00b386;
+  border-radius: 10px;
+}
+.card a{
+  color: white;
+}
+.card img{
   max-width: 100%;
   border-radius: 10px;
-  margin: 10px 0;
+}
+.card:hover img{
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+.card i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  display: none;
+}
+.card:hover i{
+  display: block;
 }
 
 /* Proprietà ABOUT */
